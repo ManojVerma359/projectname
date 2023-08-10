@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.mw-1440 {
+    max-width: 1440px !important;
+}
+
+.box11 {
+    border-radius: 20px;
+    background: rgba(3, 137, 255, 0.12);
+}
+
+.mw-834 {
+    max-width: 834px;
+}
+
+.pt-13 {
+    padding-top: 13px;
+}
+
+.pt-27 {
+    padding-top: 27px;
+}
+
+.pt-46 {
+    padding-top: 46px;
+}
+
+.pb-47 {
+    padding-bottom: 47px;
+}
+
+body {
+    background-color: #020D15 !important;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #0389FF !important;
+}
+
+p {
+    margin-bottom: 0 !important;
+}
+
+.slick-dots li.slick-active button:before {
+    content: "";
+    width: 53px !important;
+    height: 12px !important;
+    background-color: #0389FF !important;
+    border-radius: 28px !important;
+    transition: all 200ms linear;
+}
+
+.slick-dots li.slick-active {
+    width: 53px !important;
+    height: 10px !important;
+
+}
+
+.slick-dots li button::before {
+    height: 10px !important;
+    font-size: 1px !important;
+    color: white !important;
+}
+
+.slick-dots li button::before:hover {
+    color: rgb(198, 96, 96) !important;
+}
+
+.slick-dots {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    bottom: -70px !important;
+}
+
+.slick-dots li {
+    height: 15px !important;
+    color: white !important;
+}
+
+.cir_sv {
+    width: 52px;
+    height: 52px;
+    border-radius: 26px;
+    background: #0389FF1F;
+}
+
+.box_1 {
+    background: #0389FF1F;
+    border-radius: 10px;
+    padding: 13px 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.pl-14 {
+    padding-left: 14px;
+}
+
+.fm_col_linear::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(2, 13, 21, 0.00) 36.98%, rgba(2, 13, 21, 0.30) 61.46%, #020D15 93.75%);
+    border-radius: 665.432px;
+}
+
+.cir_linear::after {
+    content: "";
+    position: absolute;
+    border-radius: 433.455px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(100px);
+    bottom: -8%;
+    left: 86%;
+    top: 39%;
+    right: 0;
+}
+
+.cir_linear::before {
+    content: "";
+    position: absolute;
+    border-radius: 395.788px;
+    opacity: 0.3;
+    background: #06F;
+    filter: blur(123.5px);
+    display: flex;
+    z-index: 1;
+    z-index: 1;
+    left: 31%;
+    right: 49%;
+    top: 24%;
+    bottom: 20%;
+}
+
+.btn_watch {
+    width: 213px;
+    height: 53px;
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(175deg, rgba(0, 136, 255, 0.58) 0%, #0069E3 100%);
+    box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
+}
+
+.accordion-item {
+    border: none !important;
+    border-radius: 10px !important;
+    background: rgba(3, 137, 255, 0.12) !important;
+    backdrop-filter: blur(12.5px) !important;
+    margin-bottom: 20px !important;
+}
+
+.accordion {
+    --bs-accordion-bg: none !important;
+    --bs-accordion-active-bg: none !important;
+    --bs-accordion-border-width: none !important;
+    --bs-accordion-btn-focus-border-color: none !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    border-color: none !important;
+}
+
+.accordion-button::after {
+    content: unset !important;
+}
+
+.mt-28 {
+    margin-top: 28px;
+}
+
+.ai_col_linear::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 634.947px;
+    background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(2, 13, 21, 0.00) 20.31%, rgba(2, 13, 21, 0.30) 61.46%, #020D15 93.75%);
+}
+
+.mw-467 {
+    max-width: 467px;
+}
+
+.mw-474 {
+    max-width: 474px;
+}
+
+.ss_col_linear {
+    position: relative;
+}
+
+.ss_col_linear::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #020D15;
+    mix-blend-mode: color;
+    display: flex;
+    z-index: 1;
+}
+
+.btn-trynow {
+    width: 126px;
+    height: 53px;
+    background: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
+    border-radius: 40px;
+    box-shadow: 0px 4px 32px 0px #2746ED80;
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.nav_box {
+    border-bottom: 1px solid rgba(251, 253, 255, 0.20);
+    background: rgba(251, 253, 255, 0.01);
+    backdrop-filter: blur(16.5px);
+}
