@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root{
+/* font-size */
+--fs-ms:16px;
+--fs-sm: 18px;
+--fs-dm:20px;
+--fs-md: 24px;
+--fs-lg: 36px;
+--fs-xl: 44px;
+--fs-2xl: 48px;
+
+/* font-weight */
+--fw-sm: 300;
+--fw-md: 400;
+--fw-lg: 500;
+--fw-xl: 600;
+--fw-2xl: 700;
+
+}
+.fs-dm-500{
+    font-size: var(--fs-dm);
+    font-weight: var(--fw-lg);
+}
+.fs-ms-400{
+    font-size: var(--fs-ms);
+    font-weight: var(--fw-md);
+}
+
+.ff-jakarta{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+.ff-poppins{
+    font-family: 'Poppins', sans-serif !important;
+}
+.fs-xl-500{
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-lg);
+}
+
+.bg-clr{
+    background-color: #020D15;
+}
