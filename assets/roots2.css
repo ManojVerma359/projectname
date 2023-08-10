@@ -2,6 +2,10 @@
 
 :root{
 /* font-size */
+--fs-ms1:8px;
+--fs-ms2:10px;
+--fs-ms3:12px;
+--fs-ms4:14px;
 --fs-ms:16px;
 --fs-sm: 18px;
 --fs-dm:20px;
@@ -19,14 +23,8 @@
 --fw-2xl: 700;
 
 }
-.fs-dm-500{
-    font-size: var(--fs-dm);
-    font-weight: var(--fw-lg);
-}
-.fs-ms-400{
-    font-size: var(--fs-ms);
-    font-weight: var(--fw-md);
-}
+
+
 
 .ff-jakarta{
     font-family: 'Plus Jakarta Sans', sans-serif !important;
@@ -34,10 +32,6 @@
 
 .ff-poppins{
     font-family: 'Poppins', sans-serif !important;
-}
-.fs-xl-500{
-    font-size: var(--fs-xl);
-    font-weight: var(--fw-lg);
 }
 
 .bg-clr{
@@ -52,12 +46,24 @@
     font-size: var(--fs-sm);
 }
 
-.fs-sm{
-    font-size: var(--fs-sm);
+.fs-ms{
+    font-size: var(--fs-ms);
 }
 
 .fs-md{
     font-size: var(--fs-md);
+}
+.fs-ms1{
+    font-size: var(--fs-ms1);
+}
+.fs-ms2{
+    font-size: var(--fs-ms2);
+}
+.fs-ms3{
+    font-size: var(--fs-ms3);
+}
+.fs-ms4{
+    font-size: var(--fs-ms4);
 }
 
 .fs-lg{
@@ -90,4 +96,15 @@
 
 .fw-2xl{
     font-weight: var(--fw-2xl);
+}
+
+@media (min-width:576px) {
+    .fs-xl-500{
+        font-size: var(--fs-xl);
+        font-weight: var(--fw-lg);
+    }
+    .fs-dm-500{
+        font-size: var(--fs-dm);
+        font-weight: var(--fw-lg);
+    }
 }
