@@ -37,6 +37,11 @@
 .bg-clr{
     background-color: #020D15;
 }
+.tcolor{
+    color: #98A1A9;
+
+
+}
 
 .fs-dm{
     font-size: var(--fs-dm);
@@ -46,9 +51,7 @@
     font-size: var(--fs-sm);
 }
 
-.fs-ms{
-    font-size: var(--fs-ms);
-}
+
 
 .fs-md{
     font-size: var(--fs-md);
@@ -106,5 +109,8 @@
     .fs-dm-500{
         font-size: var(--fs-dm);
         font-weight: var(--fw-lg);
+    }
+    .fs-ms{
+        font-size: var(--fs-ms);
     }
 }
