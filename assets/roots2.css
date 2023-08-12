@@ -6,10 +6,12 @@
 --fs-ms2:10px;
 --fs-ms3:12px;
 --fs-ms4:14px;
+--fs-ms5:15px;
 --fs-ms:16px;
 --fs-sm: 18px;
 --fs-dm:20px;
 --fs-md: 24px;
+--fs-md1: 32px;
 --fs-lg: 36px;
 --fs-xl: 44px;
 --fs-2xl: 48px;
@@ -56,6 +58,9 @@
 .fs-md{
     font-size: var(--fs-md);
 }
+.fs-md1{
+    font-size: var(--fs-md1);
+}
 .fs-ms1{
     font-size: var(--fs-ms1);
 }
@@ -67,6 +72,9 @@
 }
 .fs-ms4{
     font-size: var(--fs-ms4);
+}
+.fs-ms5{
+    font-size: var(--fs-ms5);
 }
 
 .fs-lg{
