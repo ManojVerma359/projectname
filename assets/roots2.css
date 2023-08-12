@@ -70,9 +70,7 @@
 .fs-ms3{
     font-size: var(--fs-ms3);
 }
-.fs-ms4{
-    font-size: var(--fs-ms4);
-}
+
 .fs-ms5{
     font-size: var(--fs-ms5);
 }
@@ -120,5 +118,8 @@
     }
     .fs-ms{
         font-size: var(--fs-ms);
+    }
+    .fs-ms4{
+        font-size: var(--fs-ms4);
     }
 }
