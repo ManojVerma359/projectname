@@ -367,9 +367,9 @@
   .section9_img2 {
     content: "";
     position: absolute;
-    left: 50%;
+    left: 55%;
     right: 0%;
-    top: -40%;
+    top: -34%;
     bottom: -50%;
     z-index: 0;
   }

@@ -64,9 +64,7 @@
 .fs-ms1{
     font-size: var(--fs-ms1);
 }
-.fs-ms2{
-    font-size: var(--fs-ms2);
-}
+
 .fs-ms3{
     font-size: var(--fs-ms3);
 }
@@ -106,6 +104,9 @@
 .fw-2xl{
     font-weight: var(--fw-2xl);
 }
+.fs-ms4{
+    font-size: var(--fs-ms4);
+}
 
 @media (min-width:576px) {
     .fs-xl-500{
@@ -119,7 +120,8 @@
     .fs-ms{
         font-size: var(--fs-ms);
     }
-    .fs-ms4{
-        font-size: var(--fs-ms4);
+    .fs-ms2{
+        font-size: var(--fs-ms2);
     }
+    
 }
