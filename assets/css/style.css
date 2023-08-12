@@ -336,8 +336,8 @@
   .section11_img::before {
     content: "";
     width: 1px;
-    height: 308%;
-    top: -7%;
+    height: 300%;
+    top: -5%;
     left: 25%;
     display: block;
     border: 1px solid #273138;
@@ -346,8 +346,8 @@
   .section11_img1::before {
     content: "";
     width: 1px;
-    height: 308%;
-    top: -7%;
+    height: 300%;
+    top: -5%;
     left: 50%;
     display: block;
     border: 1px solid #273138;
@@ -356,8 +356,8 @@
   .section11_img2::before {
     content: "";
     width: 1px;
-    height: 308%;
-    top: -7%;
+    height: 300%;
+    top: -5%;
     left: 75%;
     display: block;
     border: 1px solid #273138;
@@ -446,6 +446,12 @@
   }
   .ww-100 {
     width: none;
+  }
+}
+@media (min-width:1450px) {
+  .img-none{
+    display: block !important;
+    display: none !important;
   }
 }
 
