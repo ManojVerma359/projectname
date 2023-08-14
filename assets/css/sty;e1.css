@@ -589,6 +589,19 @@ p {
     color: #0389FF;
 }
 
+.cir_photo::before {
+    content: "";
+    position: absolute;
+    border-radius: 303.657px;
+    opacity: 0.4;
+    background: #1673FF;
+    filter: blur(100px);
+    top: 55%;
+    bottom: 9%;
+    left: -6%;
+    right: 73%;
+}
+
 @media (min-width:992px) {
     .absolute_4 {
         position: absolute;
