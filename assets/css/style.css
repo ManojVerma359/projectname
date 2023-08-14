@@ -63,7 +63,7 @@
 }
 .learnbtn {
   display: flex;
-  padding: 13px 32px;
+  padding: 13px 22px;
   gap: 8px;
   border-radius: 40px;
   background: linear-gradient(175deg, rgba(0, 136, 255, 0.58) 0%, #0069e3 100%);
@@ -89,7 +89,7 @@
 }
 
 .boxes {
-  width: 520px;
+ max-width: 520px;
   justify-content: space-between;
   display: flex;
   padding: 1px 0px 1px 33.713px;
@@ -98,7 +98,7 @@
 }
 
 .input{
-  width: 59%;
+  max-width: 59%;
   border-color: rgba(251, 253, 255, 0.07);
   background-color: transparent;
   border: unset;
@@ -123,6 +123,15 @@
   bottom: 0;
   z-index: 0;
 }
+.section10_img {
+  content: "";
+  position: absolute;
+  left: 80%;
+  right: 0;
+  top: -6%;
+  bottom: 0;
+  z-index: 0;
+}
 
 @media (min-width: 320px) {
   .boxes{
@@ -133,15 +142,7 @@
     width: 50%;
 
   }
-  .section10_img {
-    content: "";
-    position: absolute;
-    left: 86%;
-    right: 0;
-    top: -5%;
-    bottom: 0;
-    z-index: 0;
-  }
+ 
   .arrow_img {
     content: "";
     position: absolute;
@@ -196,9 +197,9 @@
   }
 }
 @media (min-width: 576px) {
-  .boxes{
+  /* .boxes{
     max-width: 520px;
-  }
+  } */
   .section10_img {
     content: "";
     position: absolute;
