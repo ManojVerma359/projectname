@@ -46,14 +46,14 @@
   z-index: 0;
 }
 
-.imaghover {
+/* .imaghover {
   border-radius: 23px;
   height: 100%;
   transition: scale 400ms;
 }
 .imaghover:hover {
   scale: 120%;
-}
+} */
 .pt_10px {
   padding-top: 10px;
 }
@@ -67,7 +67,10 @@
   gap: 8px;
   border-radius: 40px;
   background: linear-gradient(175deg, rgba(0, 136, 255, 0.58) 0%, #0069e3 100%);
-  box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.5);
+
+}
+.learnbtn:hover{
+  box-shadow: 0px 4px 32px 0px rgba(39, 70, 237, 0.50);
 }
 
 .mt_1 {
