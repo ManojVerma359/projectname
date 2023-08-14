@@ -219,7 +219,7 @@ p {
 
 .slick-dots li button::before {
     height: 10px !important;
-    font-size: 1px !important;
+    font-size: 10px !important;
     color: white !important;
     opacity: 1 !important;
 }
