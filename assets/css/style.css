@@ -116,6 +116,18 @@
 .pp {
   margin-bottom: 0 !important;
 }
+.cir_photo::before {
+  content: "";
+  position: absolute;
+  border-radius: 303.657px;
+  opacity: 0.4;
+  background: #1673FF;
+  filter: blur(100px);
+  top: 55%;
+  bottom: 9%;
+  left: -6%;
+  right: 73%;
+}
 
 .section11blr {
   content: "";
