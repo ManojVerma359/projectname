@@ -118,6 +118,7 @@
   background-color: transparent;
   border: unset;
   width: 100%;
+  outline: none;
 }
 
 .pt-md-50 {
