@@ -216,7 +216,9 @@ body {
 p {
   margin-bottom: 0 !important;
 }
-
+.slick-dots {
+z-index: 3;
+}
 .slick-dots li.slick-active button:before {
   content: "";
   width: 53px !important;
