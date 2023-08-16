@@ -964,6 +964,7 @@ z-index: 3;
   .pt-md-50 {
     padding-top: 50px;
   }
+
 }
 
 @media (min-width: 768px) {
@@ -1028,6 +1029,9 @@ z-index: 3;
   }
   .max-w-500 {
     max-width: 500px;
+  }
+  .max-w-220 {
+    max-width: 220px;
   }
 
   .section10_img {
